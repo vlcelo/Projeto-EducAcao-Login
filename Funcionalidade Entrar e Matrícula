@@ -1,0 +1,23 @@
+Funcionalidades das páginas Entrar e Matrícula:
+
+Entrar:
+- Validações dos campos:
+  - Não permite o avanço caso o campo "Email" não esteja preenchido;
+  - Não permite o avanço caso o campo "Senha" não esteja preenchido;
+  - Caso ambos estiverem preenchidos, e forem diferentes das informações citadas no arquivo "Acesso Login", ele não permite o avanço.
+
+Matricula:
+- Validações dos campos:
+  - Não permite o avanço caso o campo "Nome completo" não esteja preenchido;
+  - Não permite o avanço caso o campo "Email" não esteja preenchido;
+  - Não permite o avanço caso você não informe se é estudante ou professor;
+  - Não permite o avanço caso você não selecione sua ecolaridade ou sua área de atuação;
+  - Não permite o avanço caso o campo "Senha" não esteja preenchido;
+  - Não permite o avanço caso o campo "Confirmar senha" não esteja preenchido;
+  - Caso os campos "Senha" e "Confirmar senha" forem diferentes, ele não permite o avanço.
+
+- Checkboxes funcionais, afinal, caso você não informe se é estudante ou professor, as opções de selecionar sua escolaridade/área de atuação, não irão aparecer.
+
+
+
+
